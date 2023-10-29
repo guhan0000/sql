@@ -1,0 +1,10 @@
+#create table staff (id int,name varchar(20),salary double);
+#select * from staff;
+#alter table staff add constraint unique(name);
+#insert into staff value(1,"guhan",25000),(2,"rames",20000),(3,"ramaraj",30000);
+#insert into staff value(3,"ramesh",34000);
+#create table workers (name varchar(23)unique ,salary double);
+#insert into workers value("ramesh",34000);
+#insert into workers value("rahul",34000);
+insert into workers value("ramesh",32000);
+select * from workers;
