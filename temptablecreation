@@ -1,0 +1,3 @@
+create temporary table temp
+select first_name from employees where first_name like "a%";
+select * from temp;
